@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Start time
+        long startTime = System.currentTimeMillis();
+        
+        // Time limit in milliseconds (30 seconds = 30000 milliseconds)
+        long timeLimit = 30000;
+
+        // Question 1
+        System.out.println("Question 1: What is the capital of France?");
+        System.out.print("Your answer: ");
+        String answer1 = scanner.nextLine();
+
+        // Check time limit
+        long elapsedTime = System.currentTimeMillis() - startTime;
+        if (elapsedTime > timeLimit) {
+            System.out.println("Time's up! You took too long to answer.");
+        } else {
+            // Process answer
+            if (answer1.equalsIgnoreCase("Paris")) {
+                System.out.println("Correct!");
+            } else {
+                System.out.println("Incorrect. The correct answer is Paris.");
+            }
+        }
+        
+        // Next question (with the same time limit)
+        if (elapsedTime < timeLimit) {
+            System.out.println("\nQuestion 2: What is 5 + 7?");
+            System.out.print("Your answer: ");
+            String answer2 = scanner.nextLine();
+            
+            // Check time limit
+            elapsedTime = System.currentTimeMillis() - startTime;
+            if (elapsedTime > timeLimit) {
+                System.out.println("Time's up! You took too long to answer.");
+            } else {
+                // Process answer
+                if (answer2.equals("12")) {
+                    System.out.println("Correct!");
+                } else {
+                    System.out.println("Incorrect. The correct answer is 12.");
+                }
+            }
+        }
+
+        // End of quiz
+        scanner.close();
+    }
+}
