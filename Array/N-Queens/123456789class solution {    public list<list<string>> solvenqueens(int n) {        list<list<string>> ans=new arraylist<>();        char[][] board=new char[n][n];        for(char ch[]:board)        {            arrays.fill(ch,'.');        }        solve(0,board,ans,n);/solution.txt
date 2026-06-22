@@ -1,0 +1,9 @@
+class Solution {
+    public List<List<String>> solveNQueens(int n) {
+        List<List<String>> ans=new ArrayList<>();
+        char[][] board=new char[n][n];
+        for(char ch[]:board)
+        {
+            Arrays.fill(ch,'.');
+        }
+        solve(0,board,ans,n);
