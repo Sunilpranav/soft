@@ -17,6 +17,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 51 | [N-Queens](./Array/N-Queens/) | Medium |
+| 605 | [Can Place Flowers](./Array/Can%20Place%20Flowers/) | Easy |
 | 1743 | [Restore the Array From Adjacent Pairs](./Array/Restore%20the%20Array%20From%20Adjacent%20Pairs/) | Medium |
 
 </details>
