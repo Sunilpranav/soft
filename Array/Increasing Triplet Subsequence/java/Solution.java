@@ -1,26 +1,18 @@
 class Solution {
     public boolean increasingTriplet(int[] nums) {
-        int i=0,j=1,k=2;
-        boolean op=false;
-        while(k<nums.length)
-        {
-            while(j<nums.length-1)
-            {
-                while(i<nums.length-2)
-                {
-                     if(nums[i]<nums[j] && nums[j]<nums[k])
-                    {
-                        op=true;
-                // System.out.println(i);
-                // System.out.println(j);
-                // System.out.println(k);
-                    } 
-                    i++;
+
+        for(int i=0;i<nums.length-2;i++) {
+            for(int j=i+1;j<nums.length-1;j++) {
+                for(int k=j+1;k<nums.length;k++) {
+
+                    if(nums[i] < nums[j] &&
+                       nums[j] < nums[k]) {
+                        return true;
+                    }
                 }
-                j++;
             }
-            k++;
         }
-        return op;
+
+        return false;
     }
 }
