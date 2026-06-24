@@ -1,47 +1,65 @@
 # 334. Increasing Triplet Subsequence
 
 [![LeetCode Link](https://img.shields.io/badge/LeetCode-Problem_Link-FFA116?style=flat-square&logo=leetcode)](https://leetcode.com/problems/increasing-triplet-subsequence/)
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-eab308?style=flat-square)
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-22c55e?style=flat-square)
 
 ## Problem Statement
 
-<p>Given an integer array <code>nums</code>, return <code>true</code><em> if there exists a triple of indices </em><code>(i, j, k)</code><em> such that </em><code>i &lt; j &lt; k</code><em> and </em><code>nums[i] &lt; nums[j] &lt; nums[k]</code>. If no such indices exists, return <code>false</code>.</p>
+Given an integer array nums, return true if there exists a triple of indices (i, j, k) such that i < j < k and nums[i] < nums[j] < nums[k]. If no such indices exists, return false.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+ 
+Example 1:
 
-<pre>
-<strong>Input:</strong> nums = [1,2,3,4,5]
-<strong>Output:</strong> true
-<strong>Explanation:</strong> Any triplet where i &lt; j &lt; k is valid.
-</pre>
+Input: nums = [1,2,3,4,5]
+Output: true
+Explanation: Any triplet where i < j < k is valid.
 
-<p><strong class="example">Example 2:</strong></p>
 
-<pre>
-<strong>Input:</strong> nums = [5,4,3,2,1]
-<strong>Output:</strong> false
-<strong>Explanation:</strong> No triplet exists.
-</pre>
+Example 2:
 
-<p><strong class="example">Example 3:</strong></p>
+Input: nums = [5,4,3,2,1]
+Output: false
+Explanation: No triplet exists.
 
-<pre>
-<strong>Input:</strong> nums = [2,1,5,0,4,6]
-<strong>Output:</strong> true
-<strong>Explanation:</strong> One of the valid triplet is (1, 4, 5), because nums[1] == 1 &lt; nums[4] == 4 &lt; nums[5] == 6.
-</pre>
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Example 3:
 
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 5 * 10<sup>5</sup></code></li>
-	<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>
-</ul>
+Input: nums = [2,1,5,0,4,6]
+Output: true
+Explanation: One of the valid triplet is (1, 4, 5), because nums[1] == 1 < nums[4] == 4 < nums[5] == 6.
 
-<p>&nbsp;</p>
-<strong>Follow up:</strong> Could you implement a solution that runs in <code>O(n)</code> time complexity and <code>O(1)</code> space complexity?
+
+ 
+Constraints:
+
+
+	1 <= nums.length <= 5 * 105
+	-231 <= nums[i] <= 231 - 1
+
+
+ 
+Follow up: Could you implement a solution that runs in O(n) time complexity and O(1) space complexity?
+
+## Examples
+
+```
+Input: nums = [1,2,3,4,5]
+Output: true
+Explanation: Any triplet where i < j < k is valid.
+
+Input: nums = [5,4,3,2,1]
+Output: false
+Explanation: No triplet exists.
+
+Input: nums = [2,1,5,0,4,6]
+Output: true
+Explanation: One of the valid triplet is (1, 4, 5), because nums[1] == 1 < nums[4] == 4 < nums[5] == 6.
+```
+
+## Constraints
+
+- 1 <= nums.length <= 5 * 105
+- -231 <= nums[i] <= 231 - 1
 
 ---
 *Synced automatically with [AlgoVault](https://github.com/mr-sanjai-offl/AlgoVault)*
