@@ -52,6 +52,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
+| 151 | [Reverse Words in a String](./Two%20Pointers/Reverse%20Words%20in%20a%20String/) | Medium |
 | 345 | [Reverse Vowels of a String](./Two%20Pointers/Reverse%20Vowels%20of%20a%20String/) | Easy |
 
 </details>
