@@ -18,6 +18,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 |---|---------|------------|
 | 51 | [N-Queens](./Array/N-Queens/) | Medium |
 | 238 | [Product of Array Except Self](./Array/Product%20of%20Array%20Except%20Self/) | Medium |
+| 334 | [Increasing Triplet Subsequence](./Array/Increasing%20Triplet%20Subsequence/) | Medium |
 | 605 | [Can Place Flowers](./Array/Can%20Place%20Flowers/) | Easy |
 | 1743 | [Restore the Array From Adjacent Pairs](./Array/Restore%20the%20Array%20From%20Adjacent%20Pairs/) | Medium |
 
