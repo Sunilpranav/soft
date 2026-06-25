@@ -36,6 +36,17 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 </details>
 
 
+### General
+<details>
+<summary>Click to expand General problems</summary>
+
+| # | Problem | Difficulty |
+|---|---------|------------|
+| — | [Invert Binary Tree](./General/Invert%20Binary%20Tree/) | Medium |
+
+</details>
+
+
 ### Tree
 <details>
 <summary>Click to expand Tree problems</summary>
