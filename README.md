@@ -4,7 +4,7 @@
 A professionally structured collection of topic-wise DSA solutions, optimized coding patterns, and interview-focused problem solving designed for technical excellence, competitive programming, and software engineering career growth.
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/mr_sanjai_offl?theme=dark&font=Poppins&ext=heatmap" width="100%" />
+  <img src="https://leetcard.jacoblin.cool/sunilpranav?theme=dark&font=Poppins&ext=heatmap" width="100%" />
 </p>
 
 # 📚 Structured Problem Solving Topics
@@ -17,6 +17,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 51 | [N-Queens](./Array/N-Queens/) | Medium |
+| 108 | [Convert Sorted Array to Binary Search Tree](./Array/Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree/) | Easy |
 | 238 | [Product of Array Except Self](./Array/Product%20of%20Array%20Except%20Self/) | Medium |
 | 334 | [Increasing Triplet Subsequence](./Array/Increasing%20Triplet%20Subsequence/) | Easy |
 | 605 | [Can Place Flowers](./Array/Can%20Place%20Flowers/) | Easy |
@@ -43,7 +44,6 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | — | [Invert Binary Tree](./General/Invert%20Binary%20Tree/) | Medium |
-| — | [Validate Binary Search Tree](./General/Validate%20Binary%20Search%20Tree/) | Easy |
 
 </details>
 
