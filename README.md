@@ -42,7 +42,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| — | [Diameter of Binary Tree](./General/Diameter%20of%20Binary%20Tree/) | Medium |
+| — | [Invert Binary Tree](./General/Invert%20Binary%20Tree/) | Medium |
 
 </details>
 
