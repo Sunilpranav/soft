@@ -1,36 +1,19 @@
 class Solution {
     public String convert(String s, int numRows) {
+        if (numRows == 1) return s;
+        List<StringBuilder> rows = new ArrayList<>();
+        for (int i = 0; i < numRows; i++) rows.add(new StringBuilder());
 
-        if (numRows == 1 || numRows >= s.length()) {
-            return s;
-        }
-
-        StringBuilder[] rows = new StringBuilder[numRows];
-
-        for (int i = 0; i < numRows; i++) {
-            rows[i] = new StringBuilder();
-        }
-
-        int currentRow = 0;
-        boolean goingDown = false;
-
+        int i = 0, step = 1;
         for (char c : s.toCharArray()) {
-
-            rows[currentRow].append(c);
-
-            if (currentRow == 0 || currentRow == numRows - 1) {
-                goingDown = !goingDown;
-            }
-
-            currentRow += goingDown ? 1 : -1;
+            rows.get(i).append(c);
+            if (i == 0) step = 1;
+            else if (i == numRows - 1) step = -1;
+            i += step;
         }
 
-        StringBuilder result = new StringBuilder();
-
-        for (StringBuilder row : rows) {
-            result.append(row);
-        }
-
-        return result.toString();
+        StringBuilder res = new StringBuilder();
+        for (StringBuilder row : rows) res.append(row);
+        return res.toString();
     }
 }
