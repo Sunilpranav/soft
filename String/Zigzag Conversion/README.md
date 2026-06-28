@@ -1,62 +1,79 @@
 # 6. Zigzag Conversion
 
 [![LeetCode Link](https://img.shields.io/badge/LeetCode-Problem_Link-FFA116?style=flat-square&logo=leetcode)](https://leetcode.com/problems/zigzag-conversion/)
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-eab308?style=flat-square)
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-22c55e?style=flat-square)
 
 ## Problem Statement
 
-<p>The string <code>&quot;PAYPALISHIRING&quot;</code> is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)</p>
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 
-<pre>
 P   A   H   N
 A P L S I I G
 Y   I   R
-</pre>
 
-<p>And then read line by line: <code>&quot;PAHNAPLSIIGYIR&quot;</code></p>
 
-<p>Write the code that will take a string and make this conversion given a number of rows:</p>
+And then read line by line: "PAHNAPLSIIGYIR"
 
-<pre>
+Write the code that will take a string and make this conversion given a number of rows:
+
 string convert(string s, int numRows);
-</pre>
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
 
-<pre>
-<strong>Input:</strong> s = &quot;PAYPALISHIRING&quot;, numRows = 3
-<strong>Output:</strong> &quot;PAHNAPLSIIGYIR&quot;
-</pre>
+ 
+Example 1:
 
-<p><strong class="example">Example 2:</strong></p>
+Input: s = "PAYPALISHIRING", numRows = 3
+Output: "PAHNAPLSIIGYIR"
 
-<pre>
-<strong>Input:</strong> s = &quot;PAYPALISHIRING&quot;, numRows = 4
-<strong>Output:</strong> &quot;PINALSIGYAHRPI&quot;
-<strong>Explanation:</strong>
+
+Example 2:
+
+Input: s = "PAYPALISHIRING", numRows = 4
+Output: "PINALSIGYAHRPI"
+Explanation:
 P     I    N
 A   L S  I G
 Y A   H R
 P     I
-</pre>
 
-<p><strong class="example">Example 3:</strong></p>
 
-<pre>
-<strong>Input:</strong> s = &quot;A&quot;, numRows = 1
-<strong>Output:</strong> &quot;A&quot;
-</pre>
+Example 3:
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Input: s = "A", numRows = 1
+Output: "A"
 
-<ul>
-	<li><code>1 &lt;= s.length &lt;= 1000</code></li>
-	<li><code>s</code> consists of English letters (lower-case and upper-case), <code>&#39;,&#39;</code> and <code>&#39;.&#39;</code>.</li>
-	<li><code>1 &lt;= numRows &lt;= 1000</code></li>
-</ul>
 
+ 
+Constraints:
+
+
+	1 <= s.length <= 1000
+	s consists of English letters (lower-case and upper-case), ',' and '.'.
+	1 <= numRows <= 1000
+
+## Examples
+
+```
+Input: s = "PAYPALISHIRING", numRows = 3
+Output: "PAHNAPLSIIGYIR"
+
+Input: s = "PAYPALISHIRING", numRows = 4
+Output: "PINALSIGYAHRPI"
+Explanation:
+P     I    N
+A   L S  I G
+Y A   H R
+P     I
+
+Input: s = "A", numRows = 1
+Output: "A"
+```
+
+## Constraints
+
+- 1 <= s.length <= 1000
+- s consists of English letters (lower-case and upper-case), ',' and '.'.
+- 1 <= numRows <= 1000
 
 ---
 *Synced automatically with [AlgoVault](https://github.com/mr-sanjai-offl/AlgoVault)*

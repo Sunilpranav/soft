@@ -1,0 +1,19 @@
+class Solution {
+    public String convert(String s, int noRows) {
+       int arr[]=new int[s.length()];
+       StringBuilder sb=new StringBuilder();
+       int ind=0;
+       while(ind<s.length())
+       {
+            for(int i=1;i<=noRows && ind<s.length();i++)
+            {
+                arr[ind++]=i;
+            }
+            for(int j=noRows-1;j>=2 && ind<s.length();j--)
+            {
+                arr[ind++]=j;
+            }
+       }
+       for(int i=1;i<=noRows;i++)
+       {
+            for(int j=0;j<s.length();j++)
