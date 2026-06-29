@@ -33,6 +33,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 577 | [Employee Bonus](./Database/Employee%20Bonus/) | Easy |
+| 620 | [Not Boring Movies](./Database/Not%20Boring%20Movies/) | Easy |
 | 1251 | [Average Selling Price](./Database/Average%20Selling%20Price/) | Easy |
 
 </details>
