@@ -18,13 +18,16 @@ class Solution {
             i++;
             right=left;
         }
-        for(int j=left;j<arr1.length;j++)
+        for(int j=left;j<arr1.length-1;j++)
         {
-            if(arr1[j-1]>arr1[j])
+            for(int k=j+1;k<arr1.length;k++)
             {
-                int temp1=arr1[j-1];
-                arr1[j-1]=arr1[j];
-                arr1[j]=temp1;
+            if(arr1[j]>arr1[k])
+            {
+                int temp1=arr1[j];
+                arr1[j]=arr1[k];
+                arr1[k]=temp1;
+            }
             }
         }
         return arr1;
