@@ -5,9 +5,8 @@
 
 ## Problem Statement
 
-<p>Table: <code>Orders</code></p>
+Table: Orders
 
-<pre>
 +-----------------+----------+
 | Column Name     | Type     |
 +-----------------+----------+
@@ -16,21 +15,20 @@
 +-----------------+----------+
 order_number is the primary key (column with unique values) for this table.
 This table contains information about the order ID and the customer ID.
-</pre>
 
-<p>&nbsp;</p>
 
-<p>Write a solution to find the <code>customer_number</code> for the customer who has placed <strong>the largest number of orders</strong>.</p>
+ 
 
-<p>The test cases are generated so that <strong>exactly one customer</strong> will have placed more orders than any other customer.</p>
+Write a solution to find the customer_number for the customer who has placed the largest number of orders.
 
-<p>The result format is in the following example.</p>
+The test cases are generated so that exactly one customer will have placed more orders than any other customer.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+The result format is in the following example.
 
-<pre>
-<strong>Input:</strong> 
+ 
+Example 1:
+
+Input: 
 Orders table:
 +--------------+-----------------+
 | order_number | customer_number |
@@ -40,20 +38,43 @@ Orders table:
 | 3            | 3               |
 | 4            | 3               |
 +--------------+-----------------+
-<strong>Output:</strong> 
+Output: 
 +-----------------+
 | customer_number |
 +-----------------+
 | 3               |
 +-----------------+
-<strong>Explanation:</strong> 
+Explanation: 
 The customer with number 3 has two orders, which is greater than either customer 1 or 2 because each of them only has one order. 
 So the result is customer_number 3.
-</pre>
 
-<p>&nbsp;</p>
-<p><strong>Follow up:</strong> What if more than one customer has the largest number of orders, can you find all the <code>customer_number</code> in this case?</p>
 
+ 
+Follow up: What if more than one customer has the largest number of orders, can you find all the customer_number in this case?
+
+## Examples
+
+```
+Input: 
+Orders table:
++--------------+-----------------+
+| order_number | customer_number |
++--------------+-----------------+
+| 1            | 1               |
+| 2            | 2               |
+| 3            | 3               |
+| 4            | 3               |
++--------------+-----------------+
+Output: 
++-----------------+
+| customer_number |
++-----------------+
+| 3               |
++-----------------+
+Explanation: 
+The customer with number 3 has two orders, which is greater than either customer 1 or 2 because each of them only has one order. 
+So the result is customer_number 3.
+```
 
 ---
 *Synced automatically with [AlgoVault](https://github.com/mr-sanjai-offl/AlgoVault)*
