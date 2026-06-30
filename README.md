@@ -37,6 +37,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 176 | [Second Highest Salary](./Database/Second%20Highest%20Salary/) | Medium |
 | 570 | [Managers with at Least 5 Direct Reports](./Database/Managers%20with%20at%20Least%205%20Direct%20Reports/) | Medium |
 | 577 | [Employee Bonus](./Database/Employee%20Bonus/) | Easy |
+| 586 | [Customer Placing the Largest Number of Orders](./Database/Customer%20Placing%20the%20Largest%20Number%20of%20Orders/) | Easy |
 | 620 | [Not Boring Movies](./Database/Not%20Boring%20Movies/) | Easy |
 | 1251 | [Average Selling Price](./Database/Average%20Selling%20Price/) | Easy |
 
