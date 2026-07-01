@@ -43,6 +43,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 620 | [Not Boring Movies](./Database/Not%20Boring%20Movies/) | Easy |
 | 1075 | [Project Employees I](./Database/Project%20Employees%20I/) | Easy |
 | 1251 | [Average Selling Price](./Database/Average%20Selling%20Price/) | Easy |
+| 1934 | [Confirmation Rate](./Database/Confirmation%20Rate/) | Medium |
 
 </details>
 
