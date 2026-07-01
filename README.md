@@ -18,6 +18,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 |---|---------|------------|
 | 51 | [N-Queens](./Array/N-Queens/) | Medium |
 | 108 | [Convert Sorted Array to Binary Search Tree](./Array/Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree/) | Easy |
+| 152 | [Maximum Product Subarray](./Array/Maximum%20Product%20Subarray/) | Medium |
 | 238 | [Product of Array Except Self](./Array/Product%20of%20Array%20Except%20Self/) | Medium |
 | 334 | [Increasing Triplet Subsequence](./Array/Increasing%20Triplet%20Subsequence/) | Easy |
 | 605 | [Can Place Flowers](./Array/Can%20Place%20Flowers/) | Easy |
