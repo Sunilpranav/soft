@@ -4,7 +4,7 @@ class Solution {
         for(int i=0;i<nums.length;i++)
         {
             int pro=1;
-            for(int j=0;j<nums.length;j++)
+            for(int j=i;j<nums.length;j++)
             {
                 pro*=nums[j];
                 max=Math.max(pro,max);
