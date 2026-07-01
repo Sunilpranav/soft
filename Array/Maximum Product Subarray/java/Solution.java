@@ -9,10 +9,10 @@ class Solution {
             {
                 max=pro;
             }
-            if(pro<0)
-            {
-                pro=-1;
-            }
+            // if(pro<0 && )
+            // {
+            //     pro=-1;
+            // }
         }
         return max;
     }
