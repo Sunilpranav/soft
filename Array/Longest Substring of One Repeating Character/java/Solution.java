@@ -7,7 +7,7 @@ class Solution {
             sb.setCharAt(queryIndices[i],queryCharacters.charAt(i));
             HashSet<Integer>h=new HashSet<>();
             int count=1;
-            int max=Integer.MIN_VALUE;
+            int max=1;
             for(int j=1;j<sb.length();j++)
             {
                 if(sb.charAt(j-1)==sb.charAt(j))
