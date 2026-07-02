@@ -40,6 +40,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 |---|---------|------------|
 | 175 | [Combine Two Tables](./Database/Combine%20Two%20Tables/) | Easy |
 | 176 | [Second Highest Salary](./Database/Second%20Highest%20Salary/) | Medium |
+| 197 | [Rising Temperature](./Database/Rising%20Temperature/) | Easy |
 | 570 | [Managers with at Least 5 Direct Reports](./Database/Managers%20with%20at%20Least%205%20Direct%20Reports/) | Medium |
 | 577 | [Employee Bonus](./Database/Employee%20Bonus/) | Easy |
 | 586 | [Customer Placing the Largest Number of Orders](./Database/Customer%20Placing%20the%20Largest%20Number%20of%20Orders/) | Easy |
