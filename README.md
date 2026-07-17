@@ -27,6 +27,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 1122 | [Relative Sort Array](./Array/Relative%20Sort%20Array/) | Easy |
 | 1331 | [Rank Transform of an Array](./Array/Rank%20Transform%20of%20an%20Array/) | Easy |
 | 1743 | [Restore the Array From Adjacent Pairs](./Array/Restore%20the%20Array%20From%20Adjacent%20Pairs/) | Medium |
+| 1913 | [Maximum Product Difference Between Two Pairs](./Array/Maximum%20Product%20Difference%20Between%20Two%20Pairs/) | Easy |
 | 2213 | [Longest Substring of One Repeating Character](./Array/Longest%20Substring%20of%20One%20Repeating%20Character/) | Hard |
 
 </details>
