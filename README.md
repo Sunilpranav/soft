@@ -80,6 +80,17 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 </details>
 
 
+### Hash Table
+<details>
+<summary>Click to expand Hash Table problems</summary>
+
+| # | Problem | Difficulty |
+|---|---------|------------|
+| 1370 | [Increasing Decreasing String](./Hash%20Table/Increasing%20Decreasing%20String/) | Easy |
+
+</details>
+
+
 ### String
 <details>
 <summary>Click to expand String problems</summary>
