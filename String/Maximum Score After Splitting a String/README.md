@@ -5,48 +5,69 @@
 
 ## Problem Statement
 
-<p>Given a&nbsp;string <code>s</code>&nbsp;of zeros and ones, <em>return the maximum score after splitting the string into two <strong>non-empty</strong> substrings</em> (i.e. <strong>left</strong> substring and <strong>right</strong> substring).</p>
+Given a string s of zeros and ones, return the maximum score after splitting the string into two non-empty substrings (i.e. left substring and right substring).
 
-<p>The score after splitting a string is the number of <strong>zeros</strong> in the <strong>left</strong> substring plus the number of <strong>ones</strong> in the <strong>right</strong> substring.</p>
+The score after splitting a string is the number of zeros in the left substring plus the number of ones in the right substring.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+ 
+Example 1:
 
-<pre>
-<strong>Input:</strong> s = &quot;011101&quot;
-<strong>Output:</strong> 5 
-<strong>Explanation:</strong> 
+Input: s = "011101"
+Output: 5 
+Explanation: 
 All possible ways of splitting s into two non-empty substrings are:
-left = &quot;0&quot; and right = &quot;11101&quot;, score = 1 + 4 = 5 
-left = &quot;01&quot; and right = &quot;1101&quot;, score = 1 + 3 = 4 
-left = &quot;011&quot; and right = &quot;101&quot;, score = 1 + 2 = 3 
-left = &quot;0111&quot; and right = &quot;01&quot;, score = 1 + 1 = 2 
-left = &quot;01110&quot; and right = &quot;1&quot;, score = 2 + 1 = 3
-</pre>
+left = "0" and right = "11101", score = 1 + 4 = 5 
+left = "01" and right = "1101", score = 1 + 3 = 4 
+left = "011" and right = "101", score = 1 + 2 = 3 
+left = "0111" and right = "01", score = 1 + 1 = 2 
+left = "01110" and right = "1", score = 2 + 1 = 3
 
-<p><strong class="example">Example 2:</strong></p>
 
-<pre>
-<strong>Input:</strong> s = &quot;00111&quot;
-<strong>Output:</strong> 5
-<strong>Explanation:</strong> When left = &quot;00&quot; and right = &quot;111&quot;, we get the maximum score = 2 + 3 = 5
-</pre>
+Example 2:
 
-<p><strong class="example">Example 3:</strong></p>
+Input: s = "00111"
+Output: 5
+Explanation: When left = "00" and right = "111", we get the maximum score = 2 + 3 = 5
 
-<pre>
-<strong>Input:</strong> s = &quot;1111&quot;
-<strong>Output:</strong> 3
-</pre>
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Example 3:
 
-<ul>
-	<li><code>2 &lt;= s.length &lt;= 500</code></li>
-	<li>The string <code>s</code> consists of characters <code>&#39;0&#39;</code> and <code>&#39;1&#39;</code> only.</li>
-</ul>
+Input: s = "1111"
+Output: 3
 
+
+ 
+Constraints:
+
+
+	2 <= s.length <= 500
+	The string s consists of characters '0' and '1' only.
+
+## Examples
+
+```
+Input: s = "011101"
+Output: 5 
+Explanation: 
+All possible ways of splitting s into two non-empty substrings are:
+left = "0" and right = "11101", score = 1 + 4 = 5 
+left = "01" and right = "1101", score = 1 + 3 = 4 
+left = "011" and right = "101", score = 1 + 2 = 3 
+left = "0111" and right = "01", score = 1 + 1 = 2 
+left = "01110" and right = "1", score = 2 + 1 = 3
+
+Input: s = "00111"
+Output: 5
+Explanation: When left = "00" and right = "111", we get the maximum score = 2 + 3 = 5
+
+Input: s = "1111"
+Output: 3
+```
+
+## Constraints
+
+- 2 <= s.length <= 500
+- The string s consists of characters '0' and '1' only.
 
 ---
 *Synced automatically with [AlgoVault](https://github.com/mr-sanjai-offl/AlgoVault)*
