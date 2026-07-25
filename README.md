@@ -98,6 +98,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 6 | [Zigzag Conversion](./String/Zigzag%20Conversion/) | Easy |
+| 1422 | [Maximum Score After Splitting a String](./String/Maximum%20Score%20After%20Splitting%20a%20String/) | Easy |
 
 </details>
 
