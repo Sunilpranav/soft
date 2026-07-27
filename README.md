@@ -23,6 +23,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 167 | [Two Sum II - Input Array Is Sorted](./Array/Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted/) | Medium |
 | 238 | [Product of Array Except Self](./Array/Product%20of%20Array%20Except%20Self/) | Medium |
 | 334 | [Increasing Triplet Subsequence](./Array/Increasing%20Triplet%20Subsequence/) | Easy |
+| 463 | [Island Perimeter](./Array/Island%20Perimeter/) | Easy |
 | 605 | [Can Place Flowers](./Array/Can%20Place%20Flowers/) | Easy |
 | 643 | [Maximum Average Subarray I](./Array/Maximum%20Average%20Subarray%20I/) | Easy |
 | 661 | [Image Smoother](./Array/Image%20Smoother/) | Easy |
