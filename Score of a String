@@ -1,0 +1,15 @@
+        class Solution {
+    public int scoreOfString(String s) {
+        int sum=0;
+        char temp1=s.charAt(0);
+        for(int i=1;i<s.length();i++)
+        {
+            char temp2=s.charAt(i);
+            int ascii1=temp1;
+            int ascii2=temp2;
+            sum=sum+Math.abs(ascii2-ascii1);
+            temp1=temp2;
+        }
+        return sum;
+    }
+}

@@ -1,0 +1,18 @@
+class Solution {
+    public int getSecondLargest(int[] arr) {
+        // code here
+        int max1=0,max2=-1;
+        for(int i=0;i<arr.length;i++)
+        {
+            max1=Math.max(max1,arr[i]);
+        }
+        for(int j=0;j<arr.length;j++)
+        {
+            if(max1!=arr[j])
+            {
+                max2=Math.max(max2,arr[j]);   
+            }
+        }
+        return max2;
+    }
+}
