@@ -25,6 +25,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 334 | [Increasing Triplet Subsequence](./Array/Increasing%20Triplet%20Subsequence/) | Easy |
 | 605 | [Can Place Flowers](./Array/Can%20Place%20Flowers/) | Easy |
 | 643 | [Maximum Average Subarray I](./Array/Maximum%20Average%20Subarray%20I/) | Easy |
+| 661 | [Image Smoother](./Array/Image%20Smoother/) | Easy |
 | 918 | [Maximum Sum Circular Subarray](./Array/Maximum%20Sum%20Circular%20Subarray/) | Medium |
 | 961 | [N-Repeated Element in Size 2N Array](./Array/N-Repeated%20Element%20in%20Size%202N%20Array/) | Easy |
 | 1051 | [Height Checker](./Array/Height%20Checker/) | Easy |
