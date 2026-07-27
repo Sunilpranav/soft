@@ -26,6 +26,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 605 | [Can Place Flowers](./Array/Can%20Place%20Flowers/) | Easy |
 | 643 | [Maximum Average Subarray I](./Array/Maximum%20Average%20Subarray%20I/) | Easy |
 | 918 | [Maximum Sum Circular Subarray](./Array/Maximum%20Sum%20Circular%20Subarray/) | Medium |
+| 961 | [N-Repeated Element in Size 2N Array](./Array/N-Repeated%20Element%20in%20Size%202N%20Array/) | Easy |
 | 1122 | [Relative Sort Array](./Array/Relative%20Sort%20Array/) | Easy |
 | 1331 | [Rank Transform of an Array](./Array/Rank%20Transform%20of%20an%20Array/) | Easy |
 | 1743 | [Restore the Array From Adjacent Pairs](./Array/Restore%20the%20Array%20From%20Adjacent%20Pairs/) | Medium |
