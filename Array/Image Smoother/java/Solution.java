@@ -1,52 +1,31 @@
 class Solution {
     public int[][] imageSmoother(int[][] img) {
-        int one=0,two=0,three=0;
-        for(int i=0;i<2;i++)
-        {
-            for(int j=0;j<2;j++)
-            {
-                one+=img[i][j];
-            }
-        }
-        double a=one/4;
-        one=(int)Math.floor(a);
-        for(int i=0;i<3;i++)
-        {
-            for(int j=0;j<2;j++)
-            {
-                two+=img[i][j];
-            }
-        }
-        double b=two/6;
-        two=(int)Math.floor(b);
-        for(int i=0;i<3;i++)
-        {
-            for(int j=0;j<3;j++)
-            {
-                three+=img[i][j];
-            }
-        }
-        double c=three/9;
-        three=(int)Math.floor(c);
-        for(int i=0;i<3;i++)
-        {
-            for(int j=0;j<3;j++)
-            {
-                if((i==0 && j==0)||(i==0 && j==2) || (i==2 && j==0)||(i==2 && j==2))
-                {
+        int rows = img.length;
+        int cols = img[0].length;
+        int[][] result = new int[rows][cols];
+        
+        // Iterate over every pixel in the image
+        for (int r = 0; r < rows; r++) {
+            for (int c = 0; c < cols; c++) {
+                int sum = 0;
+                int count = 0;
                 
-                    img[i][j]=one;
+                // Scan the 3x3 surrounding neighborhood
+                for (int i = r - 1; i <= r + 1; i++) {
+                    for (int j = c - 1; j <= c + 1; j++) {
+                        // Check if the neighbor is within the matrix boundaries
+                        if (i >= 0 && i < rows && j >= 0 && j < cols) {
+                            sum += img[i][j];
+                            count++;
+                        }
+                    }
                 }
-                else if((i==0 && j==1)||(i==1 && j==0)||(i==1 && j==2)||(i==2 && j==1))
-                {
-                    img[i][j]=two;
-                }
-                else
-                {
-                    img[i][j]=three;
-                }
+                
+                // Integer division automatically rounds down for positive numbers
+                result[r][c] = sum / count;
             }
         }
-        return img;
+        
+        return result;
     }
 }
