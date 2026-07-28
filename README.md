@@ -129,6 +129,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 |---|---------|------------|
 | 151 | [Reverse Words in a String](./Two%20Pointers/Reverse%20Words%20in%20a%20String/) | Medium |
 | 345 | [Reverse Vowels of a String](./Two%20Pointers/Reverse%20Vowels%20of%20a%20String/) | Easy |
+| 1332 | [Remove Palindromic Subsequences](./Two%20Pointers/Remove%20Palindromic%20Subsequences/) | Easy |
 
 </details>
 
