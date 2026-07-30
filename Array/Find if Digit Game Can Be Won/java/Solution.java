@@ -5,16 +5,16 @@ class Solution {
         {
             if(nums[i]<10)
             {
-                System.out.println(nums[i]);
+                //System.out.println(nums[i]);
                 one+=nums[i];
             }
             else 
             {
-                two=+nums[i];
+                two+=nums[i];
             }
         }
-        System.out.println(one);
-        System.out.println(two);
+        //System.out.println(one);
+        //System.out.println(two);
         if(one==two)
         {
             return false;
