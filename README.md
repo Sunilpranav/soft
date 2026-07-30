@@ -28,6 +28,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 709 | [To Lower Case](./String/To%20Lower%20Case/) | Easy |
+| 3019 | [Number of Changing Keys](./String/Number%20of%20Changing%20Keys/) | Easy |
 
 </details>
 
