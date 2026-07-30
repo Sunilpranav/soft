@@ -10,6 +10,17 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 # 📚 Structured Problem Solving Topics
 
 
+### Array
+<details>
+<summary>Click to expand Array problems</summary>
+
+| # | Problem | Difficulty |
+|---|---------|------------|
+| 2942 | [Find Words Containing Character](./Array/Find%20Words%20Containing%20Character/) | Easy |
+
+</details>
+
+
 ### Math
 <details>
 <summary>Click to expand Math problems</summary>
