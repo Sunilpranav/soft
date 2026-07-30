@@ -10,126 +10,13 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 # 📚 Structured Problem Solving Topics
 
 
-### Array
+### Math
 <details>
-<summary>Click to expand Array problems</summary>
+<summary>Click to expand Math problems</summary>
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| 51 | [N-Queens](./Array/N-Queens/) | Medium |
-| 108 | [Convert Sorted Array to Binary Search Tree](./Array/Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree/) | Easy |
-| 136 | [Single Number](./Array/Single%20Number/) | Easy |
-| 152 | [Maximum Product Subarray](./Array/Maximum%20Product%20Subarray/) | Medium |
-| 167 | [Two Sum II - Input Array Is Sorted](./Array/Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted/) | Medium |
-| 238 | [Product of Array Except Self](./Array/Product%20of%20Array%20Except%20Self/) | Medium |
-| 334 | [Increasing Triplet Subsequence](./Array/Increasing%20Triplet%20Subsequence/) | Easy |
-| 463 | [Island Perimeter](./Array/Island%20Perimeter/) | Easy |
-| 605 | [Can Place Flowers](./Array/Can%20Place%20Flowers/) | Easy |
-| 643 | [Maximum Average Subarray I](./Array/Maximum%20Average%20Subarray%20I/) | Easy |
-| 661 | [Image Smoother](./Array/Image%20Smoother/) | Easy |
-| 918 | [Maximum Sum Circular Subarray](./Array/Maximum%20Sum%20Circular%20Subarray/) | Medium |
-| 961 | [N-Repeated Element in Size 2N Array](./Array/N-Repeated%20Element%20in%20Size%202N%20Array/) | Easy |
-| 1051 | [Height Checker](./Array/Height%20Checker/) | Easy |
-| 1122 | [Relative Sort Array](./Array/Relative%20Sort%20Array/) | Easy |
-| 1331 | [Rank Transform of an Array](./Array/Rank%20Transform%20of%20an%20Array/) | Easy |
-| 1743 | [Restore the Array From Adjacent Pairs](./Array/Restore%20the%20Array%20From%20Adjacent%20Pairs/) | Medium |
-| 1913 | [Maximum Product Difference Between Two Pairs](./Array/Maximum%20Product%20Difference%20Between%20Two%20Pairs/) | Easy |
-| 2213 | [Longest Substring of One Repeating Character](./Array/Longest%20Substring%20of%20One%20Repeating%20Character/) | Hard |
-| 2239 | [Find Closest Number to Zero](./Array/Find%20Closest%20Number%20to%20Zero/) | Easy |
-| 3427 | [Sum of Variable Length Subarrays](./Array/Sum%20of%20Variable%20Length%20Subarrays/) | Easy |
-
-</details>
-
-
-### Database
-<details>
-<summary>Click to expand Database problems</summary>
-
-| # | Problem | Difficulty |
-|---|---------|------------|
-| 175 | [Combine Two Tables](./Database/Combine%20Two%20Tables/) | Easy |
-| 176 | [Second Highest Salary](./Database/Second%20Highest%20Salary/) | Medium |
-| 183 | [Customers Who Never Order](./Database/Customers%20Who%20Never%20Order/) | Easy |
-| 196 | [Delete Duplicate Emails](./Database/Delete%20Duplicate%20Emails/) | Easy |
-| 197 | [Rising Temperature](./Database/Rising%20Temperature/) | Easy |
-| 511 | [Game Play Analysis I](./Database/Game%20Play%20Analysis%20I/) | Easy |
-| 570 | [Managers with at Least 5 Direct Reports](./Database/Managers%20with%20at%20Least%205%20Direct%20Reports/) | Medium |
-| 577 | [Employee Bonus](./Database/Employee%20Bonus/) | Easy |
-| 586 | [Customer Placing the Largest Number of Orders](./Database/Customer%20Placing%20the%20Largest%20Number%20of%20Orders/) | Easy |
-| 620 | [Not Boring Movies](./Database/Not%20Boring%20Movies/) | Easy |
-| 1075 | [Project Employees I](./Database/Project%20Employees%20I/) | Easy |
-| 1251 | [Average Selling Price](./Database/Average%20Selling%20Price/) | Easy |
-| 1934 | [Confirmation Rate](./Database/Confirmation%20Rate/) | Medium |
-
-</details>
-
-
-### Design
-<details>
-<summary>Click to expand Design problems</summary>
-
-| # | Problem | Difficulty |
-|---|---------|------------|
-| 933 | [Number of Recent Calls](./Design/Number%20of%20Recent%20Calls/) | Easy |
-
-</details>
-
-
-### General
-<details>
-<summary>Click to expand General problems</summary>
-
-| # | Problem | Difficulty |
-|---|---------|------------|
-| — | [Invert Binary Tree](./General/Invert%20Binary%20Tree/) | Medium |
-
-</details>
-
-
-### Hash Table
-<details>
-<summary>Click to expand Hash Table problems</summary>
-
-| # | Problem | Difficulty |
-|---|---------|------------|
-| 1370 | [Increasing Decreasing String](./Hash%20Table/Increasing%20Decreasing%20String/) | Easy |
-
-</details>
-
-
-### String
-<details>
-<summary>Click to expand String problems</summary>
-
-| # | Problem | Difficulty |
-|---|---------|------------|
-| 6 | [Zigzag Conversion](./String/Zigzag%20Conversion/) | Easy |
-| 1422 | [Maximum Score After Splitting a String](./String/Maximum%20Score%20After%20Splitting%20a%20String/) | Easy |
-
-</details>
-
-
-### Tree
-<details>
-<summary>Click to expand Tree problems</summary>
-
-| # | Problem | Difficulty |
-|---|---------|------------|
-| 104 | [Maximum Depth of Binary Tree](./Tree/Maximum%20Depth%20of%20Binary%20Tree/) | Easy |
-| 111 | [Minimum Depth of Binary Tree](./Tree/Minimum%20Depth%20of%20Binary%20Tree/) | Easy |
-
-</details>
-
-
-### Two Pointers
-<details>
-<summary>Click to expand Two Pointers problems</summary>
-
-| # | Problem | Difficulty |
-|---|---------|------------|
-| 151 | [Reverse Words in a String](./Two%20Pointers/Reverse%20Words%20in%20a%20String/) | Medium |
-| 345 | [Reverse Vowels of a String](./Two%20Pointers/Reverse%20Vowels%20of%20a%20String/) | Easy |
-| 1332 | [Remove Palindromic Subsequences](./Two%20Pointers/Remove%20Palindromic%20Subsequences/) | Easy |
+| 2894 | [Divisible and Non-divisible Sums Difference](./Math/Divisible%20and%20Non-divisible%20Sums%20Difference/) | Easy |
 
 </details>
 
