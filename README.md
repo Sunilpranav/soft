@@ -16,6 +16,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
+| 258 | [Add Digits](./Math/Add%20Digits/) | Easy |
 | 2894 | [Divisible and Non-divisible Sums Difference](./Math/Divisible%20and%20Non-divisible%20Sums%20Difference/) | Easy |
 
 </details>
