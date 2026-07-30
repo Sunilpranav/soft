@@ -12,6 +12,6 @@ class Solution {
                 or+=i;
             }
         }
-        return sum-or;
+        return or-sum;
     }
 }
