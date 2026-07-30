@@ -17,6 +17,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 977 | [Squares of a Sorted Array](./Array/Squares%20of%20a%20Sorted%20Array/) | Easy |
+| 1550 | [Three Consecutive Odds](./Array/Three%20Consecutive%20Odds/) | Easy |
 | 1672 | [Richest Customer Wealth](./Array/Richest%20Customer%20Wealth/) | Easy |
 | 2942 | [Find Words Containing Character](./Array/Find%20Words%20Containing%20Character/) | Easy |
 
