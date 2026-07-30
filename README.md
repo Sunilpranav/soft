@@ -29,6 +29,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 258 | [Add Digits](./Math/Add%20Digits/) | Easy |
+| 1281 | [Subtract the Product and Sum of Digits of an Integer](./Math/Subtract%20the%20Product%20and%20Sum%20of%20Digits%20of%20an%20Integer/) | Easy |
 | 2769 | [Find the Maximum Achievable Number](./Math/Find%20the%20Maximum%20Achievable%20Number/) | Easy |
 | 2894 | [Divisible and Non-divisible Sums Difference](./Math/Divisible%20and%20Non-divisible%20Sums%20Difference/) | Easy |
 
