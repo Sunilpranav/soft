@@ -17,6 +17,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 1 | [Two Sum](./Array/Two%20Sum/) | Easy |
+| 989 | [Add to Array-Form of Integer](./Array/Add%20to%20Array-Form%20of%20Integer/) | Easy |
 
 </details>
 
