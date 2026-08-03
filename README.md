@@ -16,42 +16,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| 88 | [Merge Sorted Array](./Array/Merge%20Sorted%20Array/) | Easy |
-| 682 | [Baseball Game](./Array/Baseball%20Game/) | Easy |
-| 977 | [Squares of a Sorted Array](./Array/Squares%20of%20a%20Sorted%20Array/) | Easy |
-| 1550 | [Three Consecutive Odds](./Array/Three%20Consecutive%20Odds/) | Easy |
-| 1672 | [Richest Customer Wealth](./Array/Richest%20Customer%20Wealth/) | Easy |
-| 1822 | [Sign of the Product of an Array](./Array/Sign%20of%20the%20Product%20of%20an%20Array/) | Easy |
-| 2942 | [Find Words Containing Character](./Array/Find%20Words%20Containing%20Character/) | Easy |
-| 2974 | [Minimum Number Game](./Array/Minimum%20Number%20Game/) | Easy |
-| 3232 | [Find if Digit Game Can Be Won](./Array/Find%20if%20Digit%20Game%20Can%20Be%20Won/) | Easy |
-
-</details>
-
-
-### Math
-<details>
-<summary>Click to expand Math problems</summary>
-
-| # | Problem | Difficulty |
-|---|---------|------------|
-| 258 | [Add Digits](./Math/Add%20Digits/) | Easy |
-| 1281 | [Subtract the Product and Sum of Digits of an Integer](./Math/Subtract%20the%20Product%20and%20Sum%20of%20Digits%20of%20an%20Integer/) | Easy |
-| 2769 | [Find the Maximum Achievable Number](./Math/Find%20the%20Maximum%20Achievable%20Number/) | Easy |
-| 2894 | [Divisible and Non-divisible Sums Difference](./Math/Divisible%20and%20Non-divisible%20Sums%20Difference/) | Easy |
-
-</details>
-
-
-### String
-<details>
-<summary>Click to expand String problems</summary>
-
-| # | Problem | Difficulty |
-|---|---------|------------|
-| 657 | [Robot Return to Origin](./String/Robot%20Return%20to%20Origin/) | Easy |
-| 709 | [To Lower Case](./String/To%20Lower%20Case/) | Easy |
-| 3019 | [Number of Changing Keys](./String/Number%20of%20Changing%20Keys/) | Easy |
+| 1 | [Two Sum](./Array/Two%20Sum/) | Easy |
 
 </details>
 
