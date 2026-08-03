@@ -1,16 +1,23 @@
 class Solution {
     public List<Integer> addToArrayForm(int[] num, int k) {
-        String temp="";
-        for(int i=0;i<num.length;i++)
-        {
-            temp+=String.valueOf(num[i]);
+
+        LinkedList<Integer> ans = new LinkedList<>();
+
+        int i = num.length - 1;
+
+        while (i >= 0 || k > 0) {
+
+            if (i >= 0) {
+                k += num[i];
+            }
+
+            ans.addFirst(k % 10);
+
+            k /= 10;
+
+            i--;
         }
-        String sum=String.valueOf(Integer.parseInt(temp)+k);
-        ArrayList<Integer>l=new ArrayList<>();
-        for(int i=0;i<sum.length();i++)
-        {
-            l.add(Integer.valueOf(sum.charAt(i)+""));
-        }
-        return l;
+
+        return ans;
     }
 }
