@@ -17,6 +17,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 1 | [Two Sum](./Array/Two%20Sum/) | Easy |
+| 150 | [Evaluate Reverse Polish Notation](./Array/Evaluate%20Reverse%20Polish%20Notation/) | Medium |
 | 448 | [Find All Numbers Disappeared in an Array](./Array/Find%20All%20Numbers%20Disappeared%20in%20an%20Array/) | Easy |
 | 989 | [Add to Array-Form of Integer](./Array/Add%20to%20Array-Form%20of%20Integer/) | Easy |
 | 1441 | [Build an Array With Stack Operations](./Array/Build%20an%20Array%20With%20Stack%20Operations/) | Medium |
